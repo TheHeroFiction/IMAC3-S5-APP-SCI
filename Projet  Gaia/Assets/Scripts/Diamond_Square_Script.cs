@@ -31,6 +31,7 @@ public class Diamond_Square_Script : MonoBehaviour
 
         int triangle_offset = 0;
 
+        //Create the triangles making up the map
         for (int i = 0; i <= nb_divisions;i++ )
         {
             for (int j = 0; j <= nb_divisions; j++)
@@ -56,6 +57,7 @@ public class Diamond_Square_Script : MonoBehaviour
             }
         }
 
+        //Diamond Square Setup
         vertex_array[0].y = UnityEngine.Random.Range(-height, height);
         vertex_array[nb_divisions].y = UnityEngine.Random.Range(-height, height);
         vertex_array[vertex_array.Length - 1].y = UnityEngine.Random.Range(-height, height);
@@ -83,7 +85,7 @@ public class Diamond_Square_Script : MonoBehaviour
             height *= 0.5f;
         }
 
-
+        //For rendering
         mesh.vertices = vertex_array;
         mesh.uv = uvs;
         mesh.triangles = triangles;

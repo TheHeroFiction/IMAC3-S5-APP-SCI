@@ -377,4 +377,6 @@ public class cell_generator : MonoBehaviour
             timer -= waitTime;
         }
     }
+
+    
 }

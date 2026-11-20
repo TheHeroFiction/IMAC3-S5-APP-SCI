@@ -442,7 +442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1500529161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,10 +455,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f130c13812eb3424cb9a1d7d5066d828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axiom: FB
-  iterations: 4
+  axiom: FBFB
+  iterations: 5
   length: 1
-  angle: 20
+  angle: 40
 --- !u!4 &1500529162
 Transform:
   m_ObjectHideFlags: 0

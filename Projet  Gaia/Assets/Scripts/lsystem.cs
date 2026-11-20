@@ -48,12 +48,7 @@ public class lsystem : MonoBehaviour
         CreateMesh();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //Draw the tree
     void OnDrawGizmos()
     {
         foreach(List<Vector3> line in limeList)
@@ -62,6 +57,7 @@ public class lsystem : MonoBehaviour
         }
     }
 
+    //Create the branches to draw  
     void CreateMesh()
     {
         Vector3 init_pos;
